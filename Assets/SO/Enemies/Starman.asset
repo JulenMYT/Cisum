@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017fba8266e3474bb23d89785aa4fb3, type: 3}
+  m_Name: Starman
+  m_EditorClassIdentifier: 
+  enemyName: Starguy
+  level: 7
+  hp: 120
+  offense: 9
+  defense: 12
+  speed: 4
+  experiencePoints: 152
+  encounterText: Starguy has only one thought and it is to murder you!
+  deathText: That was easy!
+  trackName: Rock
+  deathSound: {fileID: 0}
+  dropItem: {fileID: 0}
+  actionOrder: 1
+  actions:
+  - actionID: 0
+    actionName: Beam
+    argument: 2
+    attackMessage: Starguy is emitting a beam of light
+    hitTiming: 0.1
+    attackTrigger: attack
+    audioClip: {fileID: 8300000, guid: 1acbc6c5c521c104ca1900bfe3ce7e17, type: 3}
+  - actionID: 0
+    actionName: 
+    argument: 0
+    attackMessage: Starguy is really pissed.
+    hitTiming: 0
+    attackTrigger: 
+    audioClip: {fileID: 0}

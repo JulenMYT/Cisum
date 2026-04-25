@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017fba8266e3474bb23d89785aa4fb3, type: 3}
+  m_Name: Saturn
+  m_EditorClassIdentifier: 
+  enemyName: Saturn
+  level: 1
+  hp: 30
+  offense: 5
+  defense: 3
+  speed: 77
+  experiencePoints: 6
+  encounterText: Saturn wants to play!
+  deathText: That was a good fight!
+  trackName: Fight 1
+  deathSound: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: afa645b4ff6c1534fae76e825643f6f1, type: 2}
+  actionOrder: 0
+  actions:
+  - actionID: 0
+    actionName: Roll
+    argument: 2
+    attackMessage: Saturn is rolling like crazy!
+    hitTiming: 2.2
+    attackTrigger: attack
+    audioClip: {fileID: 8300000, guid: 64c247f79a472254f9afdd6530837cb3, type: 3}
+  - actionID: 0
+    actionName: Chill
+    argument: 0
+    attackMessage: Saturn is chilling.
+    hitTiming: 0
+    attackTrigger: 
+    audioClip: {fileID: 0}

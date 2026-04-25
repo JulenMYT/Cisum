@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017fba8266e3474bb23d89785aa4fb3, type: 3}
+  m_Name: DracuSaturn
+  m_EditorClassIdentifier: 
+  enemyName: Dracusaturn
+  level: 5
+  hp: 62
+  offense: 7
+  defense: 8
+  speed: 5
+  experiencePoints: 60
+  encounterText: Dracusaturn approaches!
+  deathText: That was a good fight!
+  trackName: Scary
+  deathSound: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: afa645b4ff6c1534fae76e825643f6f1, type: 2}
+  actionOrder: 3
+  actions:
+  - actionID: 0
+    actionName: RollAttack
+    argument: 2
+    attackMessage: Dracusaturn is going all out!
+    hitTiming: 1
+    attackTrigger: attack
+    audioClip: {fileID: 0}
+  - actionID: 0
+    actionName: Chill
+    argument: 0
+    attackMessage: Dracusaturn is concerned about the sun.
+    hitTiming: 0
+    attackTrigger: 
+    audioClip: {fileID: 8300000, guid: 64c247f79a472254f9afdd6530837cb3, type: 3}
+  - actionID: 0
+    actionName: Story
+    argument: 0
+    attackMessage: 'Dracusaturn is telling you a story so scary you''ll never go
+      to the bathroom at night again.
+
+'
+    hitTiming: 0
+    attackTrigger: 
+    audioClip: {fileID: 0}

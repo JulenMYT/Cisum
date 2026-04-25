@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017fba8266e3474bb23d89785aa4fb3, type: 3}
+  m_Name: UFO
+  m_EditorClassIdentifier: 
+  enemyName: Adorable UFO
+  level: 4
+  hp: 67
+  offense: 6
+  defense: 8
+  speed: 3
+  experiencePoints: 33
+  encounterText: An adorable UFO is here!
+  deathText: BAAAAM!
+  trackName: Jazz
+  deathSound: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: 575671f0e45adca4e8880a553ddabedc, type: 2}
+  actionOrder: 2
+  actions:
+  - actionID: 0
+    actionName: 
+    argument: 0
+    attackMessage: Adorable UFO is charging.
+    hitTiming: 0
+    attackTrigger: 
+    audioClip: {fileID: 0}
+  - actionID: 0
+    actionName: Beam
+    argument: 3
+    attackMessage: Adorable UFO is emitting a beam of light
+    hitTiming: 0.1
+    attackTrigger: attack
+    audioClip: {fileID: 8300000, guid: 1acbc6c5c521c104ca1900bfe3ce7e17, type: 3}

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2017fba8266e3474bb23d89785aa4fb3, type: 3}
+  m_Name: Dogfish
+  m_EditorClassIdentifier: 
+  enemyName: Dogfish
+  level: 2
+  hp: 42
+  offense: 4
+  defense: 5
+  speed: 26
+  experiencePoints: 8
+  encounterText: A dogfish got lost!
+  deathText: How cruel....
+  trackName: Classic
+  deathSound: {fileID: 0}
+  dropItem: {fileID: 11400000, guid: 7f9fab19980e73d4d9b2ce78fcae5c74, type: 2}
+  actionOrder: 2
+  actions:
+  - actionID: 0
+    actionName: Chill
+    argument: 0
+    attackMessage: Dogfish is struggling to stand up.
+    hitTiming: 0
+    attackTrigger: 
+    audioClip: {fileID: 0}
+  - actionID: 0
+    actionName: Chill
+    argument: 0
+    attackMessage: Dogfish is preparing something.
+    hitTiming: 0
+    attackTrigger: 
+    audioClip: {fileID: 0}
+  - actionID: 0
+    actionName: Chill
+    argument: 4
+    attackMessage: Dogfish is trying his best.
+    hitTiming: 0.7
+    attackTrigger: attack
+    audioClip: {fileID: 8300000, guid: 64c247f79a472254f9afdd6530837cb3, type: 3}
